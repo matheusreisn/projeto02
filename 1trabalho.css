@@ -1,0 +1,143 @@
+body {
+    background-color: #f5f5dcf3;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(182, 173, 173, 0.8);
+    text-align: center;
+}
+
+.fachada {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #e4e4d1f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.fachada img {
+    max-width: 300px;
+    height: auto;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.fachada p {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    font-family:sans-serif;
+    background: linear-gradient(135deg, #f5f5dcf3,  #e4e4d1f3);
+}
+
+script {
+    text-align: center;
+}
+
+@media (max-width:635px){
+    #txts{
+        display: grid;
+        grid-template-columns:  auto auto;
+        gap: 10%;
+    }
+    #logo{
+        background-position: right;
+    }
+}
+
+form {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+figure {
+    margin: 10px; 
+    text-align: center; 
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    margin: 10px 0;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e4e4d1f3;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+ul {
+    list-style: none; 
+    padding: 0; 
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #e4e4d1f3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(182, 173, 173, 0.8);
+}

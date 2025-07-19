@@ -44,7 +44,45 @@
             <label for="P1D">Sem dor sem ganho</label><br>
         </form>
     </section>
-
+    <p id="contador"></p>
+    <script>
+        let visitas = localStorage.getItem('visitas') || 0;
+        visitas++;
+        localStorage.getItem('visitas', visitas);
+        document.getElementById('contador').innerText = `Voce ja visitou esta pagina`;
+    </script>
     <button onclick="alert('Otima escolha')">Clique aqui</button>
+    <button onclick="ToggleDarkMode()">Alterar Modo escuro/Claro</button>
+    <script>
+        function ToggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+    <style>
+        .dark-mode {
+            background-color: #121212;
+            color: white;
+        }
+    </style>
+    <h2>Deixe sua opinião sobre o site</h2>
+    <form onsubmit="enviarFeedback(event)">
+        <textarea id="feedback" placeholder="Escreva aqui..."></textarea><br>
+        <button type="submit">Enviar Feedback</button>
+    </form>
+    
+    <script>
+        function enviarFeedback(event) {
+            event.preventDefault();
+            const texto = document.getElementById('feedback').value;
+            if (texto.trim() === "") {
+                alert("Por favor, escreva algo antes de enviar.");
+            } else {
+                alert("Obrigado pelo seu feedback!");
+                document.getElementById('feedback').value = "";
+            }
+        }
+    </script>
+    
+
 </body>
 </html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Number One</title>
+    <link rel="stylesheet" href="1trabalho.css">
+    <style>
+        .imagem {
+            transition: transform 0.3s ease;
+        }
+
+        .imagem:hover {
+            transform: scale(1.1);
+            filter: brightness(1.2);
+
+        }
+    </style>
+
+    <style>
+        .imagem2:hover {
+            filter: brightness(1.7);
+        }
+    </style>
+    <style>
+        .imagem3:hover {
+            filter: brightness(1.2);
+        }
+    </style>
+    
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    
+</head>
+<body>
+    <a id="topo"></a>
+    <script>
+        let pergunta1 = prompt("Qual é o seu CEP?");
+    </script>   
+    <div>
+        <script>
+            alert("Bem-vindo a Pizzeria Number One!");
+        </script>
+    </div>
+    <div class="fachada">
+    <img src="ChatGPT Image 28 de mar. de 2025, 14_53_17.png" class="imagem2" alt="logo pizzaria" height="300" width="450">
+    </div>
+
+    <h1>Pizzeria Number One</h1>
+
+    <p>O que voce deseja comprar?</p>
+    <ul>
+        <li><a href="#img-pizza">Pizza</a></li>
+        <li><a href="#img-pizzapromo">Pizza promoção</a></li>
+        <li><a href=#img-esfiha>Esfiha</a></li>
+    </ul><br>
+
+    <img src="PIZZAS.jpg" class="imagem" height="500" width="1200" alt="Promoção"><br>
+
+    <p>Seja muito bem-vindo à Pizzeria Number One! 🍕✨
+
+        Aqui, cada fatia conta uma história de sabor, e cada esfiha é feita com o carinho que você merece. Preparamos tudo com ingredientes frescos e selecionados, garantindo uma experiência gastronômica única e inesquecível. Nossa missão é transformar seus momentos em verdadeiras celebrações, com o melhor das pizzas e esfihas artesanais.
+        
+        Sinta-se em casa e aproveite o melhor da culinária que só a Number One pode oferecer. Bom apetite e obrigado por escolher o número 1 em sabor! 🍴😊</p>
+
+    
+
+    <p>A Pizzeria Number One tem o orgulho de oferecer a maior variedade de sabores de pizzas para todos os gostos! 🍕✨ Desde as tradicionais como mussarela, calabresa e margherita, até opções exclusivas e inovadoras, nossas pizzas são preparadas com ingredientes selecionados e um toque especial que garante uma experiência única.  
+
+        Seja você fã de uma pizza clássica ou queira se aventurar em sabores surpreendentes, aqui você sempre encontrará a opção perfeita para matar sua fome e encantar seu paladar. Venha descobrir por que somos a número um quando o assunto é sabor e qualidade.🔥🍴</p>
+
+    <div class="image-container">    
+        <figure>
+        <figure id="img-pizza"></figure>
+        <a href="trabalho2.html" target="_blank">
+        <img src="https://t3.ftcdn.net/jpg/01/33/61/72/360_F_133617244_dWdivRXwoLVzowl1kn3iFP9JGcuNd8n6.jpg" class="imagem" alt="pizza1" height="300" width="420">
+        </a>    
+        <figcaption>Os mais variados sabores de pizzas</figcaption>
+        </figure>
+        <figure>
+        <figure id="img-pizzapromo"></figure>
+        <a href="trabalho3.html" target="_blank">
+        <img src="https://www.infomoney.com.br/wp-content/uploads/2019/06/pizza-2.jpg?fit=900%2C646&quality=50&strip=all" class="imagem" alt="pizza2" height="300" width="420">
+        </a>
+        <figcaption>Pizzas em promoção</figcaption>
+        </figure>
+        <figure>
+        <figure id="img-esfiha"></figure>
+        <a href="trabalho4.html" target="_blank">
+        <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/22/c7/a4/89/esfihas-salgadas.jpg" class="imagem" alt="pizza2" height="300" width="420">
+        </a>
+        <figcaption>Os mais variados sabores de esfihas</figcaption>
+        </figure>
+    </div>
+
+    <h3>Links para contato</h3>
+    <div style="display: flex; gap: 10px; justify-content: center;">
+    <a href="https://www.instagram.com/" class="imagem" target="_blank">
+        <img src="https://static.vecteezy.com/system/resources/previews/042/127/160/non_2x/instagram-logo-on-circle-style-with-transparent-background-free-png.png" alt="instagram" height="34" width="50"> 
+        </a>
+    <a href="https://web.whatsapp.com/" class="imagem" target="_blank">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-whatsapp-icon-download-in-svg-png-gif-file-formats--logo-brand-pack-business-icons-7573062.png?f=webp" alt="whatsapp" height="34" width="50">
+        </a>
+    </div>
+
+    <h3>Já baixou nosso aplicativo?</h3>
+    <div style="display: flex; gap: 10px; justify-content: center;">
+        <a href="https://play.google.com/store/games?hl=pt_BR" target="_blank">
+            <img src="https://logodownload.org/wp-content/uploads/2017/04/disponivel-google-play-badge-1.png" height="40" width="100" alt="1">
+        </a>
+        <a href="https://www.apple.com/br/app-store/" target="_blank">
+            <img src="https://logodownload.org/wp-content/uploads/2017/05/disponivel-na-app-store-botao-1.png" height="40" width="100" alt="2">
+        </a>
+    </div>
+
+
+    <h3 style="text-align: center;">Deixe sua opinião sobre o site:</h3>
+    <form onsubmit="enviarFeedback(event)">
+        <textarea id="feedback" placeholder="Escreva aqui..."></textarea><br>
+        <button type="submit">Enviar Feedback</button>
+    </form>
+    
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="#topo"> Voltar ao topo</a>
+    <div>
+
+    <script>
+        function enviarFeedback(event) {
+            event.preventDefault();
+            const texto = document.getElementById('feedback').value;
+            if (texto.trim() === "") {
+                alert("Por favor, escreva algo antes de enviar.");
+            } else {
+                alert("Obrigado pelo seu feedback!");
+                document.getElementById('feedback').value = "";
+            }
+        }
+    </script>
+</body>
+</html>

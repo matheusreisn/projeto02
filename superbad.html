@@ -55,7 +55,12 @@
         <a href="#topo"> Voltar ao topo</a>
     <div>
     <script>
-        alert("Bem-vindo ao melhor filme da história!");
+        let resposta = prompt("Qual é o melhor filme da história?");
+        if (resposta) {
+            alert("Ótima escolha! Você escolheu: " + resposta);
+        } else {
+            alert("Você não escolheu nenhum filme.");
+        }
     </script>
     </div>
 </body> 
